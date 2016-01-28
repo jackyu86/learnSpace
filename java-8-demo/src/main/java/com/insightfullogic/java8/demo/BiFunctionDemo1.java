@@ -21,7 +21,7 @@ public class BiFunctionDemo1 {
 	public static void main(String[] args) {
 
 		//by author
-		BiFunction<String, List<Book>, List<Book>> biFunction1 = (name,article) -> articleList.stream()
+		BiFunction<String, List<Book>, List<Book>> biFunction1 = (name,article) -> article.stream()
 																																							 .filter(al -> al.getAuthor().equals(name))
 																																							 .collect(Collectors.toList());
 		List<Book> als =biFunction1.apply("richard", articleList);
@@ -29,7 +29,7 @@ public class BiFunctionDemo1 {
 		//als.stream().forEach(a -> System.out.println(a));
 		
 		//by tag
-		BiFunction<String,List<Book>,List<Book>> bifunction2 = (tag,article) -> articleList.stream()
+		BiFunction<String,List<Book>,List<Book>> bifunction2 = (tag,article) -> article.stream()
 																																						.filter(al -> al.getTag().equals(tag))
 																																						.collect(Collectors.toList());
 		List<Book> als2 = bifunction2.apply("python", articleList);
