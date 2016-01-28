@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<proxy delete="false">
+	<host>HOST_NAME</host>
+	<port>PORT_NUMBER</port>
+	<username>USERNAME</username>
+	<password>PASSWORD</password>
+</proxy>

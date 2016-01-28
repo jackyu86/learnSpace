@@ -1,0 +1,93 @@
+2.3 - Jun 06, 2013
+    Additions:
+    * Added support for Spain.
+    
+    Improvements:
+    * Corrected bug causing AMTU to detect feed type incorrectly.
+
+2.2 - Sep 11, 2012
+    Additions:
+    * Proxy support for users who are using the application behind a proxy
+    * Windows as a service supported
+
+2.1.8 - Sep 29, 2011
+    Additions:
+    * Added support for Spain
+
+    Improvements:
+    * Corrected bug on Account Management view preventing changing intervals
+
+2.1.7 - Sep 22, 2011
+    Improvements:
+    * Corrected bugs causing AMTU to hang during feed submission, processing report retrieval, or report retrieval
+
+2.1.5 - Jul 21, 2011
+    Improvements:
+    * Corrected bug preventing some feeds from being uploaded, introduced in 2.1.4
+
+2.1.4 - Jul 19, 2011
+    Improvements:
+    * Corrected bug preventing failed feed uploads from moving to the "failed" folder
+    * Corrected bug renaming "production" to "PRODUCTION"
+    * Corrected bug not accepting "UK" as an endpoint in the XML configuration
+
+2.1.3 - IT Release (Jul 7, 2011)
+    Additions:
+    * Added support for Italy
+    * Added Italian translations
+    * Added support for Unified EU accounts
+    * Added support for multi-site accounts
+
+    Improvements:
+    * Major improvements to back end code and program database
+    * Upgraded MWS client library
+    * Improved XML configuration utility and documentation
+
+2.0.10 - Feb 16, 2011
+    Additions:
+    * Added support for _GET_ALT_FLAT_FILE_PAYMENT_SETTLEMENT_DATA_ settlement report
+    
+    Improvements:
+    * Updated application strings
+
+2.0.9 - CA Release (Jan 31, 2011)
+    Additions:
+    * Added support for CA endpoint
+    
+    Improvements:
+    * Improved support for proxy settings
+
+2.0.8 - CN Release (Dec 28, 2010)
+    Additions:
+    * Added translations to application and installer for China
+    
+    Improvements:
+    * Upgraded to most recent MWS library
+
+2.0.7 - JP Release (Dec 15, 2010)
+    Additions:
+    * Added translations to application and installer for Japan
+    * Added support for system proxy settings
+
+    Improvements:
+    * Corrected report file naming to match documentation
+    * Improved recovery behavior after a report file download fails to match the MWS MD5 checksum
+    * Updated the feed identifier to handle UTF-16 encoded files
+
+2.0.6 - Nov 18, 2010
+    Improvements:
+    * Improved German translation
+    * Improved documentation for Configuration utility
+    * Corrected minor bug introduced in 2.0.5 related to new account setup
+
+2.0.5 - EU Release (Nov 15, 2010)
+    Additions:
+    * Added translations to application and installer for UK, Germany, and France
+    * Added ability to disable downloading of reports for a seller account
+    
+    Improvements:
+    * Improved US English application and installer strings
+    * Added trimming of leading and trailing whitespace from MWS credentials (copy-and-paste issue from MWS)
+    * Corrected case where an XML Price feed was improperly recognized as an Inventory Loader
+
+2.0.4 - Initial US Release (Oct 18, 2010)

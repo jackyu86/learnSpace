@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<accounts version="3">
+  <account name="YOUR_ACCOUNT_NAME" delete="false">
+    <mwsaccesskey>MWS_ACCESS_KEY</mwsaccesskey>
+    <mwssecretkey>MWS_SECRET_KEY</mwssecretkey>
+    <merchantid>MERCHANT_ID</merchantid>
+    <mwsendpoint>MWS_ENDPOINT_2CHAR_COUNTRYCODE</mwsendpoint>
+    <documenttransport>TRANSPORT_DIRECTORY_ABSOLUTE_ADDRESS</documenttransport>
+    <accountconfig>
+      <config key="ACCOUNT_CONFIG_KEY">CONFIG_KEY_VALUE</config>
+      <!-- Repeat above as necessary -->
+    </accountconfig>
+    <site_groups>
+      <site_group name="SITE_GROUP_NAME" delete="false">
+         <directory>SITE_GROUP_SPECIFIC_TRANSPORT_DIRECTORY</<directory>>
+         <site name="SITE_NAME" marketplaceid="MARKETPLACE_ID" />
+      </site_group>
+      <!-- Repeat above as necessary -->
+    </site_groups>
+  </account>
+  <!-- Repeat above as necessary -->
+</accounts>

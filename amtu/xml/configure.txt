@@ -1,0 +1,167 @@
+Name:
+
+  configure - Configure AMTU seller accounts through an XML file
+
+
+Synopsis:
+
+  configure command [file]
+
+
+Description:
+
+  Configures AMTU seller accounts using an XML configuration file. This tool 
+  enables automated account setup and backup.
+
+  Note: AMTU must not be running when this utility is run.
+
+
+Valid Commands:
+
+  SETUP
+    Reads the file and add, updates, and deletes accounts and sites as directed.
+
+  EXPORT
+    Exports the current accounts stored in AMTU as an XML document.
+    If a file is not specified, the XML content will be output to the console.
+
+  PROXY
+    Reads the file and adds, updates, and deletes application proxy settings.
+    Please note that there is a different XML structure specified towards the 
+    bottom of the documentation.
+    
+  HELP
+    Prints this help text
+
+
+Sample Setup XML Structure:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<accounts version="3">
+  <account name="[1]" delete="[2]">
+    <mwsaccesskey>[3]</mwsaccesskey>
+    <mwssecretkey>[4]</mwssecretkey>
+    <merchantid>[5]</merchantid>
+    <mwsendpoint>[6]</mwsendpoint>
+    <documenttransport>[7]</documenttransport>
+
+    <!-- Optional Elements -->
+      <accountconfig>
+        <config key="[8]">[9]</config>
+        <!-- Repeat above as necessary -->
+      </accountconfig>
+      <site_groups>
+        <site_group name="[10]" delete="[11]">
+           <directory>[12]</directory>
+           <site name="[13]" marketplaceid="[14]" />
+        </site_group>
+        <!-- Repeat above as necessary -->
+      </site_groups>
+    <!-- End Optional Elements -->
+
+  </account>
+  <!-- Repeat above as necessary -->
+</accounts>
+
+  Values for elements described above:
+
+  [1]  - This is the name the account will be called in AMTU. This name must be 
+           unique to this account.
+  [2]  - Optional: Whether to delete this account from AMTU. Use value "true" to 
+           delete this account.
+  [3]  - The MWS access key for this seller account. This is provided to you 
+           during sign-up for MWS access.
+  [4]  - The MWS secret key for this seller account. This is provided to you 
+           during sign-up for MWS access.
+  [5]  - The Merchant ID for this seller account. This is provided to you during 
+           sign-up for MWS access.
+  [6]  - The 2-character code describing the MWS endpoint this account should 
+           use. The list of valid codes is printed below. 
+  [7]  - The full file system path to the Document Transport Directory for this 
+           account. This folder must be unique to this account.
+  [8]  - Account configuration key. The list of valid keys is printed below.
+  [9]  - The value to store for this configuration key. The accepted values for 
+           each key are printed below.
+  [10] - The name of this Site Group. This name must be unique within this
+           account.
+  [11] - Optional: Whether to delete this Site Group from this account. Use 
+           value "true" to delete this Site Group.
+  [12] - The folder under this account's Document Transport Directory to use for 
+           this Site Group. This folder must be unique to this account. 
+           Valid characters: A-Z, a-z, 0-9, and underscore _
+  [13] - The name of the Site to associate with this Site Group. This name must 
+           be unique within this account.
+           Note: Typically, this will be the name of a country or a webstore.
+  [14] - The Marketplace ID to associate with this Site.
+
+
+Valid Configuration Keys:
+
+  FEED_DISPATCH_INTERVAL
+    How many minutes to wait between feed uploads.
+    Whole numbers only. Minimum: 2
+
+  PROCESSING_REPORT_RETRIEVAL_INTERVAL
+    How many minutes to wait between feed status updates and processing report 
+      retrievals.
+    Whole numbers only. Minimum: 2
+
+  REPORT_RETRIEVAL_INTERVAL
+    How many minutes to wait between report downloads.
+    Whole numbers only. Minimum: 5
+
+  REPORTS_DISABLED
+    Whether report downloads should be disabled for this seller account.
+    Y or N only
+
+
+Available MWS Endpoints:
+
+  These 2-character codes are used by AMTU to select the proper MWS endpoint.
+
+  CA - Canada
+  CN - China
+  DE - Germany
+  FR - France
+  IT - Italy
+  JP - Japan
+  UK - United Kingdom
+  US - United States
+
+
+Standard Amazon Site Marketplace IDs:
+
+  CA - A2EUQ1WTGCTBG2
+  CN - AAHKV2X7AFYLW
+  DE - A1PA6795UKMFR9
+  FR - A13V1IB3VIYZZH
+  IT - APJ6JRA9NG5V4
+  JP - A1VC38T7YXB528
+  UK - A1F83G8C2ARO7P
+  US - ATVPDKIKX0DER
+  
+  
+Sample Proxy XML Structure:
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<proxy delete="[1]">
+    <host>[2]</host>
+    <port>[3]</port>
+    <username>[4]</username>
+    <password>[5]</password>
+</proxy>
+
+  Values for elements described above:
+  
+  [1]  - Optional: Set to true if you are deleting the proxy setting, false for 
+           add and update operations. Setting delete="true" will
+           override all other information given and will delete the config.
+  [2]  - The proxy host name you are connecting through. This field is 
+           required. This field is limited to whole numbers.
+  [3]  - The proxy port number. This field is required. 
+  [4]  - The username needed to authenticate access through the proxy. 
+           This is an optional field.
+  [5]  - The password associated with the username. This is an optional
+           field.
+         
+         
