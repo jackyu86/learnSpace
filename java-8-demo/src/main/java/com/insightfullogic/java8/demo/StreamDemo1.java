@@ -3,13 +3,17 @@ package com.insightfullogic.java8.demo;
 import java.io.ObjectInputStream.GetField;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.insightfullogic.java8.demo.pojo.User;
 
@@ -26,6 +30,21 @@ public class StreamDemo1 {
 
 	
 	public static void main(String[] args) {
+		//reduce
+		int count = Stream.of(1,2,3).reduce(0,(acc,element) -> acc + element);
+		
+		//拆分 reduce
+		BinaryOperator<Integer> ks = (acc,ele) ->  acc+ele;
+		int count2 = ks.apply(ks.apply(ks.apply(0, 1), 2), 3);
+		
+		System.out.printf("reduce result count    %s , binaryOperator result count2  %s", count,count2);
+		System.out.println();
+		//min
+		User usr = userList.stream().min(Comparator.comparing(User::getAge)).get();
+		//max
+		User usr2 = userList.stream().max(Comparator.comparing(user -> user.getAge())).get();
+		System.out.printf("age min  ->  %s  ; age max  -> %s",usr,usr2);
+		System.out.println();
 		//三元运算符选择函数
 		boolean isMale =true;
 		//按性别筛选 1
@@ -55,7 +74,9 @@ public class StreamDemo1 {
 		System.out.println(ageMap);
 		//组装set   空值报错
 		Set<String> setStr =  userList.stream().filter(u -> u.getSex()!=null&&!"".equals(u.getSex().trim())).map(User::getSex).collect(Collectors.toCollection(TreeSet::new));
+		Set<String> setStr2 = userList.stream().filter(u -> u.getSex()!=null && !"".equals(u.getSex().trim())).map(user -> user.getSex()).collect(Collectors.toCollection(LinkedHashSet::new));
 		System.out.println(setStr);
+		System.out.println(setStr2);
 		
 		//joining 自定义组装
 		String userNames = userList.stream().map(User::getName).collect(Collectors.joining(","));
@@ -68,6 +89,7 @@ public class StreamDemo1 {
 		
 		//groupingBy 按照性别分组 形式 female [user1,user*] male[user2,user*]
 		Map<String, List<User> >um  =	userList.stream().filter(u -> u.getSex()!=null&&!"".equals(u.getSex().trim())).collect(Collectors.groupingBy(User::getSex));
+		Map<String, List<User> >um2  =	userList.stream().filter(u -> u.getSex()!=null&&!"".equals(u.getSex().trim())).collect(Collectors.groupingBy(user -> user.getSex()));
 		System.out.println(um);
 		
 		//分组和集合操作嵌套使用
