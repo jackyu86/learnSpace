@@ -20,6 +20,7 @@ public class FibonacciTest {
                      com.insightfullogic.java8.answers.chapter5.Fibonacci fibonacci = new Fibonacci();
                      long result = fibonacci.fibonacci(x);
                      long expectedResult = fibonacciSequence.get(x);
+                     System.out.println(expectedResult+","+result);
                      assertEquals(expectedResult, result);
                  });
     }

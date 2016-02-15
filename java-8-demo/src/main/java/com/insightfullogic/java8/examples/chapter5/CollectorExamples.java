@@ -28,6 +28,7 @@ stream.collect(toCollection(TreeSet::new));
     // BEGIN BIGGEST_GROUP
 public Optional<Artist> biggestGroup(Stream<Artist> artists) {
     Function<Artist,Long> getCount = artist -> artist.getMembers().count();
+    //artists.collect(maxBy(Comparator.comparing(getCount)));
     return artists.collect(maxBy(comparing(getCount)));
 }
     // END BIGGEST_GROUP

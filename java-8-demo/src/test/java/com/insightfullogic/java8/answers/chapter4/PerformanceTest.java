@@ -30,6 +30,7 @@ public class PerformanceTest {
         };
 
         List<Artist> allMusicians = stub.getAllMusicians().collect(toList());
+        System.out.println(allMusicians);
         assertThat(allMusicians, hasItem(SampleData.theBeatles));
         // There really must be a better way than this
         assertThat(allMusicians, hasItems(SampleData.membersOfTheBeatles.toArray(new Artist[0])));

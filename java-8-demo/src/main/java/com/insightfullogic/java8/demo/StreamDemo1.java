@@ -1,7 +1,5 @@
 package com.insightfullogic.java8.demo;
 
-import java.io.ObjectInputStream.GetField;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedHashSet;
@@ -15,6 +13,8 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.google.common.collect.Lists;
+import com.insightfullogic.java8.demo.pojo.Like;
 import com.insightfullogic.java8.demo.pojo.User;
 
 public class StreamDemo1 {
@@ -25,25 +25,57 @@ public class StreamDemo1 {
 			new User(3, "王五", 16,User.SEX.MALE.getSexStr()),
 			new User(4, "赵六", 18,User.SEX.MALE.getSexStr()),
 			new User(5, "三八", 20,User.SEX.FEMALE.getSexStr()),
-			new User(5, "三酒", 22,null)
+			new User(6, "三酒", 22,null)
+			);
+	
+	private static List<Like> userList2 =Arrays.asList( 
+			new Like("你妹", 1),
+			new Like("你00妹", 2),
+			new Like("你000妹", 3),
+			new Like("你0000妹", 4),
+			new Like("你00000妹", 5),
+			new Like("你000000妹", 6),
+			new Like("你0000000妹", 3),
+			new Like("你00000000妹", 4),
+			new Like("他000000000妹", 1)
 			);
 
 	
 	public static void main(String[] args) {
+		//stream concat   userList逐个插入userList2全部
+	Stream<Object> aaa = userList.stream()
+			.flatMap(usr -> Stream.concat(Stream.of(usr),userList2.stream().filter(l ->l!=null && l.getDu() ==  usr.getId()) ) );
+	aaa.forEach(a -> System.out.println(a));
+		
+
+		
+		//stream  generate
+	Stream<Double> stream = 	Stream.generate( () -> Math.random());
+	stream.limit(10).forEach(d -> System.out.println(d));
+
+	//stream iterate
+	Stream<Integer> stream2 = Stream.iterate(1, a -> a.valueOf(1)+1);
+	//stream2.forEach(a -> System.out.println(a));
+	//stream2.peek(a -> ++a).forEach(a -> System.out.println(a));;
+	
+	//stream 组合示例
+	List<Integer> intLists= Lists.newArrayList(1,1,null,2,3,5,76,4,5,6,8,9,0,4,null,5,6,7,8,9,10);
+	int sum = 	intLists.stream().filter(a -> a!=null).distinct().mapToInt(b -> b*2).peek(System.out::println).skip(5).limit(100).sum();
+	System.out.println(sum);
 		//reduce
 		int count = Stream.of(1,2,3).reduce(0,(acc,element) -> acc + element);
 		
-		//拆分 reduce
+		//拆分 reduce 类似
 		BinaryOperator<Integer> ks = (acc,ele) ->  acc+ele;
 		int count2 = ks.apply(ks.apply(ks.apply(0, 1), 2), 3);
 		
-		System.out.printf("reduce result count    %s , binaryOperator result count2  %s", count,count2);
+		System.out.printf("reduce result count    %s   , binaryOperator result count2  %s  ", count,count2);
 		System.out.println();
 		//min
 		User usr = userList.stream().min(Comparator.comparing(User::getAge)).get();
 		//max
 		User usr2 = userList.stream().max(Comparator.comparing(user -> user.getAge())).get();
-		System.out.printf("age min  ->  %s  ; age max  -> %s",usr,usr2);
+		System.out.printf("age min  ->   %s   ; age max  ->  %s  ",usr,usr2);
 		System.out.println();
 		//三元运算符选择函数
 		boolean isMale =true;
@@ -102,11 +134,7 @@ public class StreamDemo1 {
 	
 	
 	Map<String, List<String>> map2 = userList.stream().filter(u -> u.getSex()!=null&&!"".equals(u.getSex().trim()))
-			.collect( 
-					Collectors.groupingBy(
-                            User::getSex, 
-                            Collectors.mapping(User::getName, 
-                                    Collectors.toList()))); 
+			.collect( Collectors.groupingBy(User::getSex,  Collectors.mapping(User::getName,  Collectors.toList()))); 
 	System.out.println(map2);
 	
 	}

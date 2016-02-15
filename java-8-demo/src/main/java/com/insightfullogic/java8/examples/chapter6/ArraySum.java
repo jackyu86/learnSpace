@@ -11,6 +11,7 @@ import org.openjdk.jmh.runner.RunnerException;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.toList;
@@ -27,6 +28,13 @@ public class ArraySum {
             "-i",
             "5"
         };
+        
+        ArraySum arraySum = new ArraySum();
+        arraySum.initAlbums();
+        int aa = arraySum.serialArraySum();
+        Stream<Object> ss = arraySum.comArray();
+        ss.forEach(a -> System.out.println(a));
+        System.out.println(aa);
         Main.main(args);
     }
 
@@ -35,6 +43,7 @@ public class ArraySum {
     @Setup
     public void initAlbums() {
         int n = Integer.getInteger("arraysum.size", 1000);
+        System.out.println(n+"次数");
         albums = IntStream.range(0, n)
                           .mapToObj(i -> SampleData.aLoveSupreme.copy())
                           .collect(toList());
@@ -49,6 +58,11 @@ public int serialArraySum() {
                  .sum();
 }
     // END serial
+    
+public Stream<Object> comArray(){
+	
+	return albums.stream().flatMap( al -> Stream.concat(Stream.of(al),al.getTrackList().stream() ));
+}
 
     @GenerateMicroBenchmark
     // BEGIN parallel

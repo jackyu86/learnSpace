@@ -139,11 +139,12 @@ private void overloadedMethod(String s) {
 
     @Test
     public void mostSpecificBiFunction() {
-
-    overloadedMethod((x, y) -> x + y);
+    	BinaryOperator<Integer> bfun = (x,y) -> x+y;
+    //overloadedMethod((x, y) -> x + y);
+    overloadedMethod(bfun);
 }
 
-// BEGIN most_specific_bifunction
+// BEGIN most_specific_bifunction 显示指定泛型为Integer
 private interface IntegerBiFunction extends BinaryOperator<Integer> {
 
 }

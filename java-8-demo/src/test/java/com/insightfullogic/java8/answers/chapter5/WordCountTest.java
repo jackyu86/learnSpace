@@ -14,7 +14,8 @@ public class WordCountTest {
     public void passesBookExample() {
         Stream<String> names = Stream.of("John", "Paul", "George", "John", "Paul", "John");
         Map<String, Long> counts = WordCount.countWords(names);
-
+        
+        System.out.println(counts);
         assertEquals(3, counts.size());
         assertEquals(Long.valueOf(3), counts.get("John"));
         assertEquals(Long.valueOf(2), counts.get("Paul"));

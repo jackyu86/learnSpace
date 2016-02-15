@@ -21,22 +21,23 @@ public class MapNewAPI {
 		}
 	}
 	public static void main(String[] args) {
+		 String mergeValue = "mergeValue";
 		//存在修改
-		String aaa = map.computeIfPresent(3, (num,value) -> value+num);
+		String aaa = map.computeIfPresent(3, (num,value) -> value+","+mergeValue+","+num);
 		System.out.println(aaa);
 		String bbb = map.get(3);
 		System.out.println(bbb);
 		//不存在添加
 		String ccc = map.computeIfAbsent(23, key -> "abc"+key);
-		System.out.println(ccc);
+		System.out.println(ccc+"00000000");
 		System.out.println(map.containsKey(4));
 		
 		//只有完全匹配时才真正删除
 		boolean removed = map.remove(3, "3val3");
 		System.out.println(removed);
 		
-		map.getOrDefault(44, "not found");
-		
+		String notFoundDefault= map.getOrDefault(44, "not found");
+		System.out.println(notFoundDefault+"   default--->");
 		//map 合并
 		//合并操作先看map中是否没有特定的key/value存在，如果是，则把key/value存入map，否则merging函数就会被调用，对现有的数值进行修改。
 		map.merge(5, "5val", (value,newValue) -> value.concat(newValue));

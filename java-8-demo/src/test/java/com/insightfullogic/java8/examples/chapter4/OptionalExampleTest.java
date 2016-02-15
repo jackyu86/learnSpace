@@ -26,6 +26,8 @@ assertTrue(a.isPresent());
 // END is_present
 
 // BEGIN orElse
+emptyOptional.orElse("cccc");
+
 assertEquals("b", emptyOptional.orElse("b"));
 assertEquals("c", emptyOptional.orElseGet(() -> "c"));
 // END orElse
