@@ -17,6 +17,8 @@ public abstract class LoanApplication {
     protected abstract void checkIncomeHistory() throws ApplicationDenied;
 
     protected abstract void checkCreditHistory() throws ApplicationDenied;
+    
+    protected abstract void callback() throws ApplicationDenied;
 
     private void reportFindings() {
 // END LoanApplication

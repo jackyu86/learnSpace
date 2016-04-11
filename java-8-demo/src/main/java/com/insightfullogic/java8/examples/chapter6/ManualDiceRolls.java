@@ -23,7 +23,9 @@ public class ManualDiceRolls {
 
     public ManualDiceRolls() {
         fraction = 1.0 / N;
+        System.out.println(Double.doubleToLongBits(fraction));
         results = new ConcurrentHashMap<>();
+        //获得Java虚拟机的可用的处理器进程数量
         numberOfThreads = Runtime.getRuntime().availableProcessors();
         executor = Executors.newFixedThreadPool(numberOfThreads);
         workPerThread = N / numberOfThreads;
@@ -59,6 +61,10 @@ public class ManualDiceRolls {
     }
 
     private void accumulateResult(int entry) {
+    	System.out.println( results.compute(entry, (key, previous) ->
+            previous == null ? fraction
+                             : previous + fraction
+        ));
         results.compute(entry, (key, previous) ->
             previous == null ? fraction
                              : previous + fraction

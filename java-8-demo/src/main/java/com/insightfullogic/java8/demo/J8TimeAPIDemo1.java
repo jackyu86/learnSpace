@@ -41,7 +41,7 @@ public class J8TimeAPIDemo1 {
 		ZoneId zone2 = ZoneId.of("Brazil/East");
 		System.out.println(zone1.getRules());
 		System.out.println(zone2.getRules());
-
+		System.out.println("----------------------------------->"+LocalDateTime.now(clock));
 		LocalTime localTime1 = LocalTime.now(zone1);
 		System.out.println(localTime1);
 		LocalTime localTime2 = LocalTime.now(zone2);

@@ -8,6 +8,13 @@ public class LoanApplication {
     private final Criteria identity;
     private final Criteria creditHistory;
     private final Criteria incomeHistory;
+    
+    public LoanApplication(Criteria identity,
+            Criteria creditHistory) {
+    	this.identity = identity;
+    	this.creditHistory = creditHistory;
+    	this.incomeHistory=null;
+    }
 
     public LoanApplication(Criteria identity,
                            Criteria creditHistory,
@@ -19,9 +26,18 @@ public class LoanApplication {
     }
 
     public void checkLoanApplication() throws ApplicationDenied {
-        identity.check();
-        creditHistory.check();
-        incomeHistory.check();
+        if(this.identity!=null){
+        this.identity.check();
+        }
+        
+        if(this.creditHistory!=null){
+        this.creditHistory.check();
+        }
+        
+        if(this.incomeHistory!=null){
+        	this.incomeHistory.check();
+        }
+        
         reportFindings();
     }
 

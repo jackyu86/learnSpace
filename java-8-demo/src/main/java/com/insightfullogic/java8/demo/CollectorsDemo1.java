@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
+import com.insightfullogic.java8.demo.pojo.Like;
 import com.insightfullogic.java8.demo.pojo.User;
 
 public class CollectorsDemo1 {
@@ -20,11 +22,18 @@ public class CollectorsDemo1 {
 			new User(6, "三酒", 22,null)
 			);
 	
+	private static List<Like> likes = Arrays.asList(
+			new Like("sao",2)
+			);
+	
 	public static void main(String[] args) {
+		String aaaa ="aaaaaaaaaaaaaaaaaaaaaaaa";
 		
+		userList.parallelStream().filter(u -> u.getName()!=null&&!"".equals(u.getName())).flatMap(uu -> Stream.concat(Stream.of(uu), Stream.of(likes))).forEach(a -> System.out.println("flatMap collect collections"+a));
 		String usrNameJoins=userList.stream().map(u -> u.getName()).collect(Collectors.joining(",", "[", "]"));
 		System.out.println(usrNameJoins);
-		
+		String aa =	userList.stream().filter(u -> u.getName()!=null).map(u -> u.getName()).reduce(aaaa,(aaa,ele) -> aaa+ele);
+		System.out.println(aa);
 		StringBuilder sb =userList.stream().filter(u -> u.getName()!=null).map(u -> u.getName()).reduce(new StringBuilder(), (builer,usrName) -> {
 																										if(builer.length()>0){
 																											builer.append(",");

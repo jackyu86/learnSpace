@@ -7,6 +7,10 @@ public class EmployeeLoanApplication extends PersonalLoanApplication {
     protected void checkIncomeHistory() {
         // They work for us!
     }
+    @Override
+    protected void callback()  {
+		System.out.println("aaaa");
+	}
 
 }
 // END EmployeeLoanApplication
