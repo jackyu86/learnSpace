@@ -44,9 +44,8 @@ IFS=:
 aaaaa=0
 IFS=$oldIFS
 done < /etc/passwd;
-exit 1
-echo $IFS
 
+echo $IFS
 
 :<<EOF
 cat datafile.txt | while read myline
@@ -65,6 +64,13 @@ while myline=$(line)
 do 
  echo "LINE:"$myline
 done < datafile.txt
+
+until循环
+x=0
+until[ $x -eq 9 ]
+do let++; echo $x;
+done
+
 EOF
 
 
