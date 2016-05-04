@@ -11,7 +11,7 @@ Shell本身的PID（ProcessID）
 $! 
 Shell最后运行的后台Process的PID 
 $? 
-最后运行的命令的结束代码（返回值） 
+最后运行的命令的结束代码（返回值）
 $- 
 使用Set命令设定的Flag一览 
 $* 

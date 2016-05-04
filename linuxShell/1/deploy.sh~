@@ -15,7 +15,7 @@ else
 	else
 		mvn clean install
 		#scp CloudBiz.tar.gz 192.168.1.103:/var/ftp/pub/webOld/
-		ssh -p 65535 qa@222.73.176.24 "mkdir -p /home/qa/release/$DATE"
+		ssh -p 65535 qa@222.73.176.24 "mkdir -p /home/yuhy/adapter/release/$DATE"
 		scp -P65535  CloudBiz.tar.gz qa@222.73.176.24:/home/qa/release/$DATE	
 	fi
 	

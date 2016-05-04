@@ -29,3 +29,15 @@ else
 echo "root user"
 echo "shell running ..."
 fi
+
+#判断最后执行的命令的执行状态是否成功
+CMD="ps -ef"
+$CMD
+if [ $? -eq 0 ];
+then
+echo "$CMD executed successfully"
+else
+echo "$CMD terminated unsuccessfully"
+fi
+
+
