@@ -26,4 +26,60 @@ csplit -n 3 server.log 12
 csplit -f FileName server.log 12
 #4)将文件server.log以10行为单位分割8次， 并指定输出文件名的格式 mac os 无-b arg
 csplit -b "myfile%o%" server.log 10 {8}
+#5)将文本文件textfile以每20行为单位分割
+csplit server.log 20 {*}
+#6)把文件以字符串"SERVER"为分界符，分成两部分
+csplit  server.log /"SERVER"/
+#7)承上例， 但分割文件时以"SERVER"字符串往下4行才是分割点
+csplit server.log /"SERVER"/+4
+
+
+#根据扩展名切割文件
+#借助%和#操作符可以轻松将名称部分从“名称.扩展名”提取出来
+
+#提取文件名
+file_jpg="sample.jpg"
+name=${file_jpg%.*}
+echo file name is:$name
+
+#提取文件名的扩展名，可以借助#来完成
+extension=${file_jpg#*.}
+echo file extension is :${extension}
+
+
+#%是非贪婪操作 %%属于贪婪操作  从右匹配截取
+#如
+file_name="jack.yu.txt"
+filename1=${file_name%.*}
+echo File Name1 is : ${filename1}
+#echo jack.yu
+filename2=${file_name%%.*}
+echo File Name2 is : ${filename2}
+#echo jack
+
+# #与##类似 %与%%  ##是贪婪匹配   从左匹配截取
+
+
+#实例截取url
+URL="www.google.com"
+
+echo ${URL%.*}
+#www.google
+echo ${URL%%.*}
+#www
+echo ${URL#*.}
+#google.com
+echo ${URL##*.}
+#com
+
+
+
+
+
+
+
+
+
+
+
 
