@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1477988312444_1" label="consumer" name="consumer">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer-contract" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer-util" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/consumer-dao" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1475123234792_0" label="Window Working Set" name="Aggregate for window 1475123234791"/>
+</workingSetManager>

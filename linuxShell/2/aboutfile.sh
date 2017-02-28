@@ -16,3 +16,13 @@ echo -e "orange\ngold\ncookies\ncarrot">B.txt
 sort A.txt -o A.txt;sort B.txt -o B.txt
 
 comm A.txt B.txt
+#选项
+#-1 从输出中删除第一行
+#-2 从输出中删除第二行
+#-3 从输出中删除第三行
+comm A.txt B.txt -1 -2
+comm A.txt B.txt -3 | sed 's/^\t//'
+
+
+
+#查找并删除重复文件

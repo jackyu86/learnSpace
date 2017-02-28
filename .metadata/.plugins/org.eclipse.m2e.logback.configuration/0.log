@@ -1,0 +1,338 @@
+2016-09-26 12:33:11,873 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.structures.algorithm:structures-algorithm:0.0.1-SNAPSHOT @ /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/pom.xml.
+2016-09-26 12:33:12,300 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /structures-algorithm/src/main/java
+2016-09-26 12:33:12,302 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /structures-algorithm/src/test/java
+2016-09-26 12:33:12,808 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.structures.algorithm:structures-algorithm:0.0.1-SNAPSHOT @ /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/pom.xml.
+2016-09-26 12:33:12,820 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2016-09-26 12:33:17,057 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-26 12:33:17,057 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-26 12:33:17,059 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-26 12:33:17,060 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-26 12:33:29,304 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-26 12:33:29,304 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-26 12:33:29,306 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-26 12:33:29,306 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:27:13,518 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.structures.algorithm:structures-algorithm:0.0.1-SNAPSHOT @ /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/pom.xml.
+2016-09-29 12:27:14,138 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:27:14,138 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:27:14,143 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:27:14,143 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:27:14,279 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.structures.algorithm:structures-algorithm:0.0.1-SNAPSHOT @ /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/pom.xml.
+2016-09-29 12:27:15,223 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:27:15,224 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:27:15,225 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:27:15,225 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:42:59,259 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:42:59,259 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:42:59,260 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:42:59,260 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:43:03,310 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:43:03,311 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:43:03,312 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:43:03,312 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:51:20,081 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:20,081 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:51:20,083 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:20,083 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:51:38,863 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:38,863 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:51:38,864 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:38,865 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:51:42,073 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:42,074 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:51:42,076 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:51:42,076 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:52:01,087 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:52:01,087 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:52:01,089 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:52:01,089 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:52:04,374 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:52:04,374 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:52:04,375 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:52:04,376 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:54:18,008 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:18,008 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:54:18,009 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:18,010 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:54:24,194 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:24,195 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:54:24,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:24,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:54:30,994 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:30,994 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:54:30,996 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:30,997 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-29 12:54:39,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:39,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-29 12:54:39,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-29 12:54:39,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:06:43,493 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:06:43,502 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:06:43,505 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:06:43,505 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:07:34,428 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:34,429 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:07:34,430 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:34,430 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:07:39,246 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:39,246 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:07:39,249 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:39,250 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:07:59,399 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:59,399 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:07:59,400 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:07:59,400 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:08:02,702 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:08:02,702 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:08:02,703 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:08:02,703 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:08:21,696 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:08:21,696 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:08:21,698 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:08:21,698 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:10:10,376 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:10:10,376 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:10:10,378 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:10:10,378 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:12:32,552 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:12:32,552 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:12:32,555 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:12:32,555 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:13:29,900 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:13:29,900 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:13:29,901 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:13:29,901 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:13:36,066 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:13:36,066 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:13:36,068 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:13:36,068 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:14:03,258 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:14:03,258 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:14:03,260 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:14:03,260 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:14:36,426 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:14:36,426 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:14:36,427 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:14:36,427 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:25:25,165 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:25:25,166 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:25:25,171 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:25:25,172 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:25:51,155 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:25:51,155 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:25:51,158 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:25:51,158 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:26:16,861 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:26:16,861 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:26:16,862 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:26:16,862 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:27:21,087 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:27:21,087 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:27:21,089 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:27:21,089 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:28:39,652 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:28:39,652 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:28:39,653 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:28:39,654 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:29:00,632 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:29:00,633 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:29:00,634 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:29:00,634 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:29:31,309 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:29:31,309 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:29:31,310 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:29:31,310 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:30:41,804 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:41,805 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:30:41,808 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:41,808 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:30:51,538 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:51,538 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:30:51,539 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:51,539 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:30:59,872 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:59,872 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:30:59,873 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:30:59,874 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:31:03,774 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:03,776 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:31:03,777 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:03,777 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:31:15,629 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:15,629 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:31:15,630 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:15,630 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:31:17,882 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:17,883 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:31:17,884 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:17,884 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:31:55,199 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:55,200 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:31:55,201 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:31:55,201 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:32:15,698 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:32:15,698 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:32:15,699 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:32:15,699 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:33:16,412 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:33:16,412 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:33:16,415 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:33:16,416 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:34:17,799 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:34:17,799 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:34:17,800 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:34:17,800 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:34:52,101 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:34:52,102 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:34:52,103 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:34:52,103 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:35:32,127 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:32,127 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:35:32,128 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:32,128 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:35:41,022 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:41,022 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:35:41,023 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:41,024 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:35:51,921 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:51,921 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:35:51,922 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:35:51,923 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:36:35,705 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:36:35,706 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:36:35,706 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:36:35,706 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:41:37,592 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:41:37,592 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:41:37,593 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:41:37,593 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:43:49,779 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:43:49,779 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:43:49,781 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:43:49,781 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:44:02,893 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:44:02,893 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:44:02,895 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:44:02,896 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:44:18,798 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:44:18,798 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:44:18,799 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:44:18,799 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:50:16,760 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:50:16,764 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:50:16,774 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:50:16,774 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-09-30 12:50:31,329 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:50:31,329 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-09-30 12:50:31,330 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-30 12:50:31,331 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-10-13 12:20:59,338 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-13 12:20:59,342 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-10-13 12:20:59,345 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-13 12:20:59,345 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-10-18 12:23:03,118 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-18 12:23:03,125 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-10-18 12:23:03,128 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-18 12:23:03,128 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-10-19 12:40:45,719 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-19 12:40:45,725 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/main/resources
+2016-10-19 12:40:45,728 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-19 12:40:45,728 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/learnSpace/structures-algorithm/src/test/resources
+2016-10-25 09:47:47,188 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.abel533:ECharts:3.0.0.2 @ /Users/yuhaiyang/GitHub/haiyang/ECharts/pom.xml.
+2016-10-25 09:47:49,887 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.pom
+2016-10-25 09:47:50,794 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.pom
+2016-10-25 09:47:51,212 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.jar
+2016-10-25 09:47:53,964 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.jar
+2016-10-25 09:47:54,335 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ECharts/src/main/java
+2016-10-25 09:47:54,338 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ECharts/src/test/java
+2016-10-25 09:47:54,339 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ECharts/src/test/resources
+2016-10-25 09:47:54,342 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /ECharts/src/test/java overlaps with sources folder /ECharts/src/test/java
+2016-10-25 09:47:54,449 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2016-10-25 09:47:54,787 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.abel533:ECharts:3.0.0.2 @ /Users/yuhaiyang/GitHub/haiyang/ECharts/pom.xml.
+2016-10-25 09:47:57,090 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.abel533:ECharts:3.0.0.2 @ /Users/yuhaiyang/GitHub/haiyang/ECharts/pom.xml.
+2016-10-25 09:47:57,166 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:47:57,167 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/ECharts/src/main/resources
+2016-10-25 09:47:57,168 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:47:57,174 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-10-25 09:47:57,194 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 29 resources
+2016-10-25 09:47:58,310 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.abel533:ECharts:3.0.0.2 @ /Users/yuhaiyang/GitHub/haiyang/ECharts/pom.xml.
+2016-10-25 09:47:59,315 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:47:59,316 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/ECharts/src/main/resources
+2016-10-25 09:47:59,317 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:47:59,319 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-25 09:47:59,319 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-25 09:57:13,077 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar
+2016-10-25 09:57:15,340 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar
+2016-10-25 09:57:15,367 [Worker-2] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.11
+2016-10-25 09:57:15,520 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:57:15,520 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/ECharts/src/main/resources
+2016-10-25 09:57:15,541 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 09:57:15,541 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-25 09:57:15,541 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-25 10:07:27,221 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 10:07:27,222 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/ECharts/src/main/resources
+2016-10-25 10:07:27,224 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-25 10:07:27,251 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-10-25 10:07:27,254 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 29 resources
+2016-11-01 16:18:33,375 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/pom.xml.
+2016-11-01 16:18:34,309 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-contract:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/pom.xml.
+2016-11-01 16:18:38,884 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-web:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-web/pom.xml.
+2016-11-01 16:18:43,792 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-service:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-service/pom.xml.
+2016-11-01 16:18:43,885 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-util:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-util/pom.xml.
+2016-11-01 16:18:43,933 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-dao:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-dao/pom.xml.
+2016-11-01 16:18:44,395 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.abel533:ECharts:3.0.0.2 @ /Users/yuhaiyang/GitHub/haiyang/ECharts/pom.xml.
+2016-11-01 16:18:46,470 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-contract/src/main/java
+2016-11-01 16:18:46,472 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-contract/src/test/java
+2016-11-01 16:18:46,661 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-dao/src/main/java
+2016-11-01 16:18:46,662 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /consumer-dao/src/main/resources
+2016-11-01 16:18:46,667 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-dao/src/test/java
+2016-11-01 16:18:46,746 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/pom.xml.
+2016-11-01 16:18:47,625 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-service:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-service/pom.xml.
+2016-11-01 16:18:47,727 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-service/src/main/java
+2016-11-01 16:18:47,727 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /consumer-service/src/main/resources
+2016-11-01 16:18:47,731 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-service/src/test/java
+2016-11-01 16:18:47,978 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-util/src/main/java
+2016-11-01 16:18:47,979 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /consumer-util/src/main/resources
+2016-11-01 16:18:47,990 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-util/src/test/java
+2016-11-01 16:18:48,091 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-web/src/main/java
+2016-11-01 16:18:48,092 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /consumer-web/src/main/resources
+2016-11-01 16:18:48,095 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /consumer-web/src/test/java
+2016-11-01 16:18:48,185 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-web:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-web/pom.xml.
+2016-11-01 16:18:48,436 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-contract:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/pom.xml.
+2016-11-01 16:18:48,469 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-dao:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-dao/pom.xml.
+2016-11-01 16:18:48,555 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-util:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-util/pom.xml.
+2016-11-01 16:18:49,409 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-contract:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/pom.xml.
+2016-11-01 16:18:49,469 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-dao:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-dao/pom.xml.
+2016-11-01 16:18:49,564 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-service:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-service/pom.xml.
+2016-11-01 16:18:49,675 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-util:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-util/pom.xml.
+2016-11-01 16:18:49,737 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-web:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-web/pom.xml.
+2016-11-01 16:18:51,101 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 6 project(s) in 18 sec
+2016-11-01 16:18:55,253 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-01 16:18:55,253 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/GitHub/haiyang/ECharts/src/main/resources
+2016-11-01 16:18:55,257 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-01 16:18:55,267 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2016-11-01 16:18:55,278 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 29 resources
+2016-11-01 16:18:55,601 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-contract:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/pom.xml.
+2016-11-01 16:18:55,703 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:55,704 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/src/main/resources
+2016-11-01 16:18:55,707 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:55,707 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-contract/src/test/resources
+2016-11-01 16:18:56,065 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-dao:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-dao/pom.xml.
+2016-11-01 16:18:56,537 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:56,538 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-01 16:18:56,541 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:56,542 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-dao/src/test/resources
+2016-11-01 16:18:56,654 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-service:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-service/pom.xml.
+2016-11-01 16:18:57,026 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:57,026 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-01 16:18:57,029 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:57,029 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-service/src/test/resources
+2016-11-01 16:18:57,278 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-util:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-util/pom.xml.
+2016-11-01 16:18:57,350 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:57,350 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-01 16:18:57,352 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:57,352 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-util/src/test/resources
+2016-11-01 16:18:58,981 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.autohome.dealer.template.turbo:consumer-web:1.0-SNAPSHOT @ /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-web/pom.xml.
+2016-11-01 16:18:59,985 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:18:59,985 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2016-11-01 16:19:00,040 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2016-11-01 16:19:00,041 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yuhaiyang/Documents/autoWork/consumer/source/consumer-web/src/test/resources
