@@ -39,7 +39,7 @@ class Person:
     def __str__(self):
         return '[Person:%s,%s,%s]' %(self.name,self.age,self.pay)
 
-
+#继承
 class Manager(Person):
     def giveRaise(self,percent,bonus=.10):
         Person.giveRaise(self,percent+bonus)
@@ -54,3 +54,25 @@ if __name__ == '__main__':
     print(jack_m)
     jack_m.giveRaise(.10)
     print(jack_m.pay)
+    # 特殊类属性
+    print(jack.__class__.__name__)#Person
+    print(Manager.__class__)#type
+    print(jack_m.__class__)#<class '__main__.Manager'>
+    print(type(jack_m.__dict__.keys()))
+    if jack_m.__class__ is Manager:
+        print('--->')
+    else:
+        print('<---')
+    #1
+    print('------------------------')
+    for key in jack_m.__dict__:
+        print(key,'---',getattr(jack_m,key))
+    #2
+    print('------------------------')
+    for (a,b) in jack_m.__dict__.items():
+        print(a,'--',b)
+    #3
+    print('------------------------')
+    print([ (str(a)+','+str(b))  for a,b in jack_m.__dict__.items()])
+
+
