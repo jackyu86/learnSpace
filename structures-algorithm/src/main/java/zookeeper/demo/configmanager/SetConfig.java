@@ -12,19 +12,19 @@ public class SetConfig {
 
 	private static String url = "127.0.0.1:4180";
 	private final static String root = "/myConf";
-	
+
 	private final static String auth_type = "disgest";
 	private final static String auth_passwd = "password";
-	
+
 	private final static String mysqlUrl = "127.0.0.1:3306";
 	private final static String userName = "root";
 	private final static String passWord = "123";
-	
-	
+
+
 	public static void main(String[] args) throws Exception {
-		
+
 		ZooKeeper zooKeeper = new ZooKeeper(url, 3000, new Watcher() {
-			
+
 			@Override
 			public void process(WatchedEvent event) {
 
@@ -36,7 +36,7 @@ public class SetConfig {
 			Thread.sleep(3000);
 		}
 		//zooKeeper.addAuthInfo(auth_type, auth_passwd.getBytes());
-		
+
 		if(zooKeeper.exists(root,true)==null){
 			zooKeeper.create(root,"root1".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 		}
@@ -49,7 +49,7 @@ public class SetConfig {
 		if(zooKeeper.exists("/myConf/passWord",true)==null){
 			zooKeeper.create("/myConf/passWord",passWord.getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 		}
-		
+
 	}
 }
 
