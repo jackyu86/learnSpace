@@ -1,10 +1,13 @@
+#coding=utf-8
 '''
 Created on Oct 12, 2010
 Decision Tree Source Code for Machine Learning in Action Ch. 3
 @author: Peter Harrington
 '''
+
 from math import log
 import operator
+
 
 def createDataSet():
     dataSet = [[1, 1, 'yes'],
@@ -20,15 +23,47 @@ def calcShannonEnt(dataSet):
     numEntries = len(dataSet)
     labelCounts = {}
     for featVec in dataSet: #the the number of unique elements and their occurance
-        currentLabel = featVec[-1]
-        if currentLabel not in labelCounts.keys(): labelCounts[currentLabel] = 0
+        currentLabel = tuple(featVec[-1])
+        keys=list(labelCounts.keys());
+        if currentLabel not in keys: labelCounts[currentLabel] = 0
         labelCounts[currentLabel] += 1
     shannonEnt = 0.0
     for key in labelCounts:
         prob = float(labelCounts[key])/numEntries
         shannonEnt -= prob * log(prob,2) #log base 2
     return shannonEnt
-    
+#python 3x
+# def createDataSet():
+#     dataSet = [[1, 1, 'yes'],
+#                [1, 1, 'yes'],
+#                [1, 0, 'no'],
+#                [0, 1, 'no'],
+#                [0, 1, 'no']]
+#     labels = ['no surfacing','flippers']
+#     #change to discrete values
+#     return dataSet, labels
+#
+# def calcShannonEnt(dataSet):
+#     numEntries = len(dataSet)
+#     labelCounts = {}
+#     for featVec in dataSet: #the the number of unique elements and their occurance
+#         currentLabel = tuple(featVec[-1])
+#         keys=list(labelCounts.keys());
+#         if currentLabel not in keys: labelCounts[currentLabel] = 0
+#         labelCounts[currentLabel] += 1
+#     shannonEnt = 0.0
+#     for key in labelCounts:
+#         prob = float(labelCounts[key])/numEntries
+#         shannonEnt -= prob * log(prob,2) #log base 2
+#     return shannonEnt
+# dataSet = [[1, 1, 'yes'],
+#                [1, 1, 'yes'],
+#                [1, 0, 'no'],
+#                [0, 1, 'no'],
+#                [0, 1, 'no']]
+#     labels = ['no surfacing','flippers']
+
+
 def splitDataSet(dataSet, axis, value):
     retDataSet = []
     for featVec in dataSet:
@@ -37,9 +72,11 @@ def splitDataSet(dataSet, axis, value):
             reducedFeatVec.extend(featVec[axis+1:])
             retDataSet.append(reducedFeatVec)
     return retDataSet
-    
+
 def chooseBestFeatureToSplit(dataSet):
+    #取列数(除了最好一列)
     numFeatures = len(dataSet[0]) - 1      #the last column is used for the labels
+    #计算基础熵(原数据集)
     baseEntropy = calcShannonEnt(dataSet)
     bestInfoGain = 0.0; bestFeature = -1
     for i in range(numFeatures):        #iterate over all the features
@@ -66,6 +103,7 @@ def majorityCnt(classList):
 
 def createTree(dataSet,labels):
     classList = [example[-1] for example in dataSet]
+    #递归到类别完全相同
     if classList.count(classList[0]) == len(classList): 
         return classList[0]#stop splitting when all of the classes are equal
     if len(dataSet[0]) == 1: #stop splitting when there are no more features in dataSet
@@ -103,3 +141,8 @@ def grabTree(filename):
     fr = open(filename)
     return pickle.load(fr)
     
+
+
+dataset,lables=createDataSet()
+#print calcShannonEnt(dataset)
+print splitDataSet(dataset,1,0)
