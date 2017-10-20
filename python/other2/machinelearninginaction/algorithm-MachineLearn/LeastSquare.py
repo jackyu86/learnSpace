@@ -1,4 +1,5 @@
 #coding=utf-8
+#最小二乘法与解二元一次方程差别图
 import os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -34,7 +35,15 @@ def drawScatterDiagrama(fileName):
         plt.plot(x,y)
     plt.show()
 
+#python实现最小二乘法
+#
+
+
+
+
 
 
 if __name__ == "__main__":
     drawScatterDiagrama('leastSquareData')
+
+

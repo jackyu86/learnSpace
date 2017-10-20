@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/resources/test1/demo-provider093.xml</file>
+          <file>file://$MODULE_DIR$/resources/test2/demo-consumer093.xml</file>
+          <file>file://$MODULE_DIR$/resources/test2/demo-provider093.xml</file>
+          <file>file://$MODULE_DIR$/resources/META-INF/spring/dubbo-provider-config.xml</file>
+          <file>file://$MODULE_DIR$/resources/META-INF/spring/dubbo-provider-services.xml</file>
+          <file>file://$MODULE_DIR$/resources/demo-consumer080.xml</file>
+          <file>file://$MODULE_DIR$/resources/demo-consumer093.xml</file>
+          <file>file://$MODULE_DIR$/resources/demo-provider080.xml</file>
+          <file>file://$MODULE_DIR$/resources/demo-provider093.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java080" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/java093" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

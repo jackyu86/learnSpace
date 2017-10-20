@@ -1,0 +1,3 @@
+thrift093=cn.jpush.dubbo.thrift.Thrift093RpcProtocol
+thrift=cn.jpush.dubbo.thrift.prox.Thrift2Protocol
+avro=cn.jpush.dubbo.thrift.prox.AvroProtocol
