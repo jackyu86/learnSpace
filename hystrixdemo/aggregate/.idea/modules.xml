@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aggregate.iml" filepath="$PROJECT_DIR$/.idea/modules/aggregate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aggregate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/aggregate_main.iml" group="aggregate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aggregate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/aggregate_test.iml" group="aggregate" />
+    </modules>
+  </component>
+</project>

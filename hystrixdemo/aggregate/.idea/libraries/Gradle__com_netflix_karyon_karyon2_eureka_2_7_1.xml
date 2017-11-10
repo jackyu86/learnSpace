@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.karyon:karyon2-eureka:2.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.karyon/karyon2-eureka/2.7.1/f56a7e80cdbc8ec216db884687ac8f3926cb7c74/karyon2-eureka-2.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.karyon/karyon2-eureka/2.7.1/36a39430c33fe938e506f916ffa28b09aad4891c/karyon2-eureka-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="aggregate:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-admin-web:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-jersey-blocking:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-eureka:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-archaius:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-servo:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-core:1.4.15" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.hystrix:hystrix-rx-netty-metrics-stream:1.4.15" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.feign:feign-core:8.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.feign:feign-jackson:8.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.inject:guice:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.freemarker:freemarker:2.3.15" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-admin:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-governator:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:14.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-core:1.18.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey.contribs:jersey-guice:1.18.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-servlet:1.18.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-server:1.18.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.eureka:eureka-client:1.1.151" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxnetty-servo:0.4.7" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.0.13" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxnetty:0.4.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.sonatype.sisu.inject:cglib:2.2.1-v20090111" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.3" level="project" />
+    <orderEntry type="library" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.mortbay.jetty:jetty:6.1.26" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.inject.extensions:guice-servlet:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.pytheas:pytheas-core:1.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.governator:governator:1.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.karyon:karyon2-core:2.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jettison:jettison:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-eventbus:0.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.thoughtworks.xstream:xstream:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.servo:servo-core:0.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-client:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-httpclient:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.5.1" level="project" />
+    <orderEntry type="library" name="Gradle: asm:asm:3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.mortbay.jetty:servlet-api:2.5-20081211" level="project" />
+    <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-json:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.8.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-configuration:commons-configuration:1.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.stephenc.high-scale-lib:high-scale-lib:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.inject.extensions:guice-grapher:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xbean:xbean-finder:3.11.1" level="project" />
+    <orderEntry type="library" name="Gradle: asm:asm-all:3.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.inject.extensions:guice-multibindings:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.xbean:xbean-bundleutils:3.11.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:4.1.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxnetty-contexts:0.4.7" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-infix:0.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-core:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.0.25.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.3-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.inject.extensions:guice-assistedinject:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:1.0.0.GA" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-jxpath:commons-jxpath:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:antlr-runtime:3.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.archaius:archaius-core:0.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.netflix.servo:servo-internal:0.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.11" level="project" />
+  </component>
+</module>

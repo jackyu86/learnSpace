@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.pytheas:pytheas-core:1.25">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.pytheas/pytheas-core/1.25/4d063b1bdd3cb0a25cf9ab9345cd8703b343e677/pytheas-core-1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.pytheas/pytheas-core/1.25/8b8108ea202c07fe135eb378b9400d5756759e8f/pytheas-core-1.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

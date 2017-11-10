@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.reactivex:rxnetty-contexts:0.4.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.7/273ec2d1f559bc36f805421a63344fe3513bd854/rxnetty-contexts-0.4.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.7/42e7b4611f91040e52ded066cc7d98d4ed95c900/rxnetty-contexts-0.4.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

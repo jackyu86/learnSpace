@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.hystrix:hystrix-rx-netty-metrics-stream:1.4.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-rx-netty-metrics-stream/1.4.15/cf78d596aed589420ca5f3e4b86da5dc74759e26/hystrix-rx-netty-metrics-stream-1.4.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-rx-netty-metrics-stream/1.4.15/d5329e295a82191044b0aa4a647b70685daa5543/hystrix-rx-netty-metrics-stream-1.4.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
