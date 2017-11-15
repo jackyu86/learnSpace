@@ -50,7 +50,6 @@ public class Server {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return this.ip+"--"+this.port;
     }
 }

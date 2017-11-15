@@ -31,13 +31,13 @@ public class ConsistentHashing {
 
 //        shard.get("bjsxt");
 
-        System.out.println(shard.getShardInfo("bjsxtlxasdsdf"));
-        System.out.println(shard.getShardInfo("bjsxtlxas"));
-        System.out.println(shard.getShardInfo("gsdfsd"));
-        System.out.println(shard.getShardInfo("asdasd"));
-        System.out.println(shard.getShardInfo("hrtdf"));
-        System.out.println(shard.getShardInfo("bjsxtlxas"));
-        System.out.println(shard.getShardInfo("asdasd"));
+        System.out.println(shard.getShardInfo("哎"));
+        System.out.println(shard.getShardInfo("呦"));
+        System.out.println(shard.getShardInfo("我"));
+        System.out.println(shard.getShardInfo("去"));
+        System.out.println(shard.getShardInfo("你"));
+        System.out.println(shard.getShardInfo("妹"));
+        System.out.println(shard.getShardInfo("的"));
 
 //        new Jedis(sha)
 
