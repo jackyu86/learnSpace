@@ -11,18 +11,18 @@ public class PessimisticLockTest {
 
 	public static void main(String[] args) {
 		long starTime=System.currentTimeMillis();
-		
+
 		initPrduct();
 		initClient();
 		printResult();
-		 
+
 		long endTime=System.currentTimeMillis();
 		long Time=endTime-starTime;
-		System.out.println("³ÌĞòÔËĞĞÊ±¼ä£º "+Time+"ms");   
+		System.out.println("ç¨‹åºè¿è¡Œæ—¶é—´ï¼š "+Time+"ms");
 	}
 
 	/**
-	 * Êä³ö½á¹û
+	 * è¾“å‡ºç»“æœ
 	 */
 	public static void printResult() {
 		Jedis jedis = RedisUtil.getInstance().getJedis();
@@ -30,18 +30,18 @@ public class PessimisticLockTest {
 
 		int i = 1;
 		for (String value : set) {
-			System.out.println("µÚ" + i++ + "¸öÇÀµ½ÉÌÆ·£¬" + value + " ");
+			System.out.println("ç¬¬" + i++ + "ä¸ªæŠ¢åˆ°å•†å“ï¼Œ" + value + " ");
 		}
 
 		RedisUtil.returnResource(jedis);
 	}
 
 	/*
-	 * ³õÊ¼»¯¹Ë¿Í¿ªÊ¼ÇÀÉÌÆ·
+	 * åˆå§‹åŒ–é¡¾å®¢å¼€å§‹æŠ¢å•†å“
 	 */
 	public static void initClient() {
 		ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
-		int clientNum = 10000;// Ä£Äâ¿Í»§ÊıÄ¿
+		int clientNum = 10000;// æ¨¡æ‹Ÿå®¢æˆ·æ•°ç›®
 		for (int i = 0; i < clientNum; i++) {
 			cachedThreadPool.execute(new PessClientThread(i));
 		}
@@ -49,7 +49,7 @@ public class PessimisticLockTest {
 
 		while (true) {
 			if (cachedThreadPool.isTerminated()) {
-				System.out.println("ËùÓĞµÄÏß³Ì¶¼½áÊøÁË£¡");
+				System.out.println("æ‰€æœ‰çš„çº¿ç¨‹éƒ½ç»“æŸäº†ï¼");
 				break;
 			}
 			try {
@@ -61,12 +61,12 @@ public class PessimisticLockTest {
 	}
 
 	/**
-	 * ³õÊ¼»¯ÉÌÆ·¸öÊı
+	 * åˆå§‹åŒ–å•†å“ä¸ªæ•°
 	 */
 	public static void initPrduct() {
-		int prdNum = 100;// ÉÌÆ·¸öÊı
+		int prdNum = 100;// å•†å“ä¸ªæ•°
 		String key = "prdNum";
-		String clientList = "clientList";// ÇÀ¹ºµ½ÉÌÆ·µÄ¹Ë¿ÍÁĞ±í
+		String clientList = "clientList";// æŠ¢è´­åˆ°å•†å“çš„é¡¾å®¢åˆ—è¡¨
 		Jedis jedis = RedisUtil.getInstance().getJedis();
 
 		if (jedis.exists(key)) {
@@ -77,27 +77,27 @@ public class PessimisticLockTest {
 			jedis.del(clientList);
 		}
 
-		jedis.set(key, String.valueOf(prdNum));// ³õÊ¼»¯
+		jedis.set(key, String.valueOf(prdNum));// åˆå§‹åŒ–
 		RedisUtil.returnResource(jedis);
 	}
 
 }
 
 /**
- * ¹Ë¿ÍÏß³Ì
- * 
+ * é¡¾å®¢çº¿ç¨‹
+ *
  * @author linbingwen
  *
  */
 class PessClientThread implements Runnable {
-	String key = "prdNum";// ÉÌÆ·Ö÷¼ü
-	String clientList = "clientList";// // ÇÀ¹ºµ½ÉÌÆ·µÄ¹Ë¿ÍÁĞ±íÖ÷¼ü
+	String key = "prdNum";// å•†å“ä¸»é”®
+	String clientList = "clientList";// // æŠ¢è´­åˆ°å•†å“çš„é¡¾å®¢åˆ—è¡¨ä¸»é”®
 	String clientName;
 	RedisBasedDistributedLock redisBasedDistributedLock;
 	Jedis jedis = null;
 
 	public PessClientThread(int num) {
-		clientName = "±àºÅ=" + num;
+		clientName = "ç¼–å·=" + num;
 		init();
 	}
 
@@ -108,32 +108,32 @@ class PessClientThread implements Runnable {
 
 	public void run() {
 		try {
-			Thread.sleep((int) (Math.random() * 5000));// Ëæ»úË¯ÃßÒ»ÏÂ
+			Thread.sleep((int) (Math.random() * 5000));// éšæœºç¡çœ ä¸€ä¸‹
 		} catch (InterruptedException e1) {
 		}
 
 		while (true) {
-			//ÏÈÅĞ¶Ï»º´æÊÇ·ñÓĞÉÌÆ·
+			//å…ˆåˆ¤æ–­ç¼“å­˜æ˜¯å¦æœ‰å•†å“
 			if(Integer.valueOf(jedis.get(key))<= 0) {
 				break;
 			}
-			
-			//»º´æ»¹ÓĞÉÌÆ·£¬È¡Ëø£¬ÉÌÆ·ÊıÄ¿¼õÈ¥1
-			System.out.println("¹Ë¿Í:" + clientName + "¿ªÊ¼ÇÀÉÌÆ·");
-			if (redisBasedDistributedLock.tryLock(3,TimeUnit.SECONDS)) { //µÈ´ı3Ãë»ñÈ¡Ëø£¬·ñÔò·µ»Øfalse
-				int prdNum = Integer.valueOf(jedis.get(key)); //ÔÙ´ÎÈ¡µÃÉÌÆ·»º´æÊıÄ¿
+
+			//ç¼“å­˜è¿˜æœ‰å•†å“ï¼Œå–é”ï¼Œå•†å“æ•°ç›®å‡å»1
+			System.out.println("é¡¾å®¢:" + clientName + "å¼€å§‹æŠ¢å•†å“");
+			if (redisBasedDistributedLock.tryLock(3,TimeUnit.SECONDS)) { //ç­‰å¾…3ç§’è·å–é”ï¼Œå¦åˆ™è¿”å›false
+				int prdNum = Integer.valueOf(jedis.get(key)); //å†æ¬¡å–å¾—å•†å“ç¼“å­˜æ•°ç›®
 				if (prdNum > 0) {
-					jedis.decr(key);//ÉÌÆ·Êı¼õ1
-					jedis.sadd(clientList, clientName);// ÇÀµ½ÉÌÆ·¼ÇÂ¼Ò»ÏÂ
-					System.out.println("ºÃ¸ßĞË£¬¹Ë¿Í:" + clientName + "ÇÀµ½ÉÌÆ·");
+					jedis.decr(key);//å•†å“æ•°å‡1
+					jedis.sadd(clientList, clientName);// æŠ¢åˆ°å•†å“è®°å½•ä¸€ä¸‹
+					System.out.println("å¥½é«˜å…´ï¼Œé¡¾å®¢:" + clientName + "æŠ¢åˆ°å•†å“");
 				} else {
-					System.out.println("±¯¾çÁË£¬¿â´æÎª0£¬¹Ë¿Í:" + clientName + "Ã»ÓĞÇÀµ½ÉÌÆ·");
+					System.out.println("æ‚²å‰§äº†ï¼Œåº“å­˜ä¸º0ï¼Œé¡¾å®¢:" + clientName + "æ²¡æœ‰æŠ¢åˆ°å•†å“");
 				}
 				redisBasedDistributedLock.unlock();
 				break;
 			}
 		}
-		//ÊÍ·Å×ÊÔ´
+		//é‡Šæ”¾èµ„æº
 		redisBasedDistributedLock = null;
 		RedisUtil.returnResource(jedis);
 	}

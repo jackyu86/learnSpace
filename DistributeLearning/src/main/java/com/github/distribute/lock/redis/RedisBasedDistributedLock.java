@@ -6,18 +6,18 @@ import java.util.concurrent.locks.Condition;
 import redis.clients.jedis.Jedis;
 
 /**
- * »ùÓÚRedisµÄSETNX²Ù×÷ÊµÏÖµÄ·Ö²¼Ê½Ëø
- * 
- * »ñÈ¡ËøÊ±×îºÃÓÃlock(long time, TimeUnit unit), ÒÔÃâÍøÂ·ÎÊÌâ¶øµ¼ÖÂÏß³ÌÒ»Ö±×èÈû
+ * åŸºäºRedisçš„SETNXæ“ä½œå®ç°çš„åˆ†å¸ƒå¼é”
+ *
+ * è·å–é”æ—¶æœ€å¥½ç”¨lock(long time, TimeUnit unit), ä»¥å…ç½‘è·¯é—®é¢˜è€Œå¯¼è‡´çº¿ç¨‹ä¸€ç›´é˜»å¡
  */
 public class RedisBasedDistributedLock extends AbstractLock {
 
 	private Jedis jedis;
 
-	// ËøµÄÃû×Ö
+	// é”çš„åå­—
 	protected String lockKey;
 
-	// ËøµÄÓĞĞ§Ê±³¤(ºÁÃë)
+	// é”çš„æœ‰æ•ˆæ—¶é•¿(æ¯«ç§’)
 	protected long lockExpires;
 
 	public RedisBasedDistributedLock(Jedis jedis, String lockKey, long lockExpires) {
@@ -26,7 +26,7 @@ public class RedisBasedDistributedLock extends AbstractLock {
 		this.lockExpires = lockExpires;
 	}
 
-	// ×èÈûÊ½»ñÈ¡ËøµÄÊµÏÖ
+	// é˜»å¡å¼è·å–é”çš„å®ç°
 	protected boolean lock(boolean useTimeout, long time, TimeUnit unit, boolean interrupt) throws InterruptedException {
 		System.out.println("test1");
 		if (interrupt) {
@@ -43,13 +43,13 @@ public class RedisBasedDistributedLock extends AbstractLock {
 				checkInterruption();
 			}
 
-			long lockExpireTime = System.currentTimeMillis() + lockExpires + 1;// Ëø³¬Ê±Ê±¼ä
+			long lockExpireTime = System.currentTimeMillis() + lockExpires + 1;// é”è¶…æ—¶æ—¶é—´
 			String stringOfLockExpireTime = String.valueOf(lockExpireTime);
 
 			System.out.println("test4");
-			if (jedis.setnx(lockKey, stringOfLockExpireTime) == 1) { // »ñÈ¡µ½Ëø
+			if (jedis.setnx(lockKey, stringOfLockExpireTime) == 1) { // è·å–åˆ°é”
 				System.out.println("test5");
-				//³É¹¦»ñÈ¡µ½Ëø, ÉèÖÃÏà¹Ø±êÊ¶
+				//æˆåŠŸè·å–åˆ°é”, è®¾ç½®ç›¸å…³æ ‡è¯†
 				locked = true;
 				setExclusiveOwnerThread(Thread.currentThread());
 				return true;
@@ -59,14 +59,14 @@ public class RedisBasedDistributedLock extends AbstractLock {
 			String value = jedis.get(lockKey);
 			if (value != null && isTimeExpired(value)) { // lock is expired
 				System.out.println("test7");
-				// ¼ÙÉè¶à¸öÏß³Ì(·Çµ¥jvm)Í¬Ê±×ßµ½ÕâÀï
-				String oldValue = jedis.getSet(lockKey, stringOfLockExpireTime); //Ô­×Ó²Ù×÷
-				// µ«ÊÇ×ßµ½ÕâÀïÊ±Ã¿¸öÏß³ÌÄÃµ½µÄoldValue¿Ï¶¨²»¿ÉÄÜÒ»Ñù(ÒòÎªgetsetÊÇÔ­×ÓĞÔµÄ)
-				// ¼ÓÈëÄÃµ½µÄoldValueÒÀÈ»ÊÇexpiredµÄ£¬ÄÇÃ´¾ÍËµÃ÷ÄÃµ½ËøÁË
+				// å‡è®¾å¤šä¸ªçº¿ç¨‹(éå•jvm)åŒæ—¶èµ°åˆ°è¿™é‡Œ
+				String oldValue = jedis.getSet(lockKey, stringOfLockExpireTime); //åŸå­æ“ä½œ
+				// ä½†æ˜¯èµ°åˆ°è¿™é‡Œæ—¶æ¯ä¸ªçº¿ç¨‹æ‹¿åˆ°çš„oldValueè‚¯å®šä¸å¯èƒ½ä¸€æ ·(å› ä¸ºgetsetæ˜¯åŸå­æ€§çš„)
+				// åŠ å…¥æ‹¿åˆ°çš„oldValueä¾ç„¶æ˜¯expiredçš„ï¼Œé‚£ä¹ˆå°±è¯´æ˜æ‹¿åˆ°é”äº†
 				System.out.println("test8");
 				if (oldValue != null && isTimeExpired(oldValue)) {
 					System.out.println("test9");
-					//³É¹¦»ñÈ¡µ½Ëø, ÉèÖÃÏà¹Ø±êÊ¶
+					//æˆåŠŸè·å–åˆ°é”, è®¾ç½®ç›¸å…³æ ‡è¯†
 					locked = true;
 					setExclusiveOwnerThread(Thread.currentThread());
 					return true;
@@ -80,11 +80,11 @@ public class RedisBasedDistributedLock extends AbstractLock {
 	}
 
 	public boolean tryLock() {
-		long lockExpireTime = System.currentTimeMillis() + lockExpires + 1;// Ëø³¬Ê±Ê±¼ä
+		long lockExpireTime = System.currentTimeMillis() + lockExpires + 1;// é”è¶…æ—¶æ—¶é—´
 		String stringOfLockExpireTime = String.valueOf(lockExpireTime);
 
-		if (jedis.setnx(lockKey, stringOfLockExpireTime) == 1) { // »ñÈ¡µ½Ëø
-			// ³É¹¦»ñÈ¡µ½Ëø, ÉèÖÃÏà¹Ø±êÊ¶
+		if (jedis.setnx(lockKey, stringOfLockExpireTime) == 1) { // è·å–åˆ°é”
+			// æˆåŠŸè·å–åˆ°é”, è®¾ç½®ç›¸å…³æ ‡è¯†
 			locked = true;
 			setExclusiveOwnerThread(Thread.currentThread());
 			return true;
@@ -92,12 +92,12 @@ public class RedisBasedDistributedLock extends AbstractLock {
 
 		String value = jedis.get(lockKey);
 		if (value != null && isTimeExpired(value)) { // lock is expired
-			// ¼ÙÉè¶à¸öÏß³Ì(·Çµ¥jvm)Í¬Ê±×ßµ½ÕâÀï
-			String oldValue = jedis.getSet(lockKey, stringOfLockExpireTime); //Ô­×Ó²Ù×÷
-			// µ«ÊÇ×ßµ½ÕâÀïÊ±Ã¿¸öÏß³ÌÄÃµ½µÄoldValue¿Ï¶¨²»¿ÉÄÜÒ»Ñù(ÒòÎªgetsetÊÇÔ­×ÓĞÔµÄ)
-			// ¼ÙÈçÄÃµ½µÄoldValueÒÀÈ»ÊÇexpiredµÄ£¬ÄÇÃ´¾ÍËµÃ÷ÄÃµ½ËøÁË
+			// å‡è®¾å¤šä¸ªçº¿ç¨‹(éå•jvm)åŒæ—¶èµ°åˆ°è¿™é‡Œ
+			String oldValue = jedis.getSet(lockKey, stringOfLockExpireTime); //åŸå­æ“ä½œ
+			// ä½†æ˜¯èµ°åˆ°è¿™é‡Œæ—¶æ¯ä¸ªçº¿ç¨‹æ‹¿åˆ°çš„oldValueè‚¯å®šä¸å¯èƒ½ä¸€æ ·(å› ä¸ºgetsetæ˜¯åŸå­æ€§çš„)
+			// å‡å¦‚æ‹¿åˆ°çš„oldValueä¾ç„¶æ˜¯expiredçš„ï¼Œé‚£ä¹ˆå°±è¯´æ˜æ‹¿åˆ°é”äº†
 			if (oldValue != null && isTimeExpired(oldValue)) {
-				//³É¹¦»ñÈ¡µ½Ëø, ÉèÖÃÏà¹Ø±êÊ¶
+				//æˆåŠŸè·å–åˆ°é”, è®¾ç½®ç›¸å…³æ ‡è¯†
 				locked = true;
 				setExclusiveOwnerThread(Thread.currentThread());
 				return true;
@@ -111,7 +111,7 @@ public class RedisBasedDistributedLock extends AbstractLock {
 
 	/**
 	 * Queries if this lock is held by any thread.
-	 * 
+	 *
 	 * @return {@code true} if any thread holds this lock and {@code false}
 	 *         otherwise
 	 */
@@ -120,17 +120,17 @@ public class RedisBasedDistributedLock extends AbstractLock {
 			return true;
 		} else {
 			String value = jedis.get(lockKey);
-			// TODO ÕâÀïÆäÊµÊÇÓĞÎÊÌâµÄ, Ïë:µ±get·½·¨·µ»Øvalueºó, ¼ÙÉèÕâ¸övalueÒÑ¾­ÊÇ¹ıÆÚµÄÁË,
-			// ¶ø¾ÍÔÚÕâË²¼ä, ÁíÒ»¸ö½ÚµãsetÁËvalue, ÕâÊ±ËøÊÇ±»±ğµÄÏß³Ì(½Úµã³ÖÓĞ), ¶ø½ÓÏÂÀ´µÄÅĞ¶Ï
-			// ÊÇ¼ì²â²»³öÕâÖÖÇé¿öµÄ.²»¹ıÕâ¸öÎÊÌâÓ¦¸Ã²»»áµ¼ÖÂÆäËüµÄÎÊÌâ³öÏÖ, ÒòÎªÕâ¸ö·½·¨µÄÄ¿µÄ±¾À´¾Í
-			// ²»ÊÇÍ¬²½¿ØÖÆ, ËüÖ»ÊÇÒ»ÖÖËø×´Ì¬µÄ±¨¸æ.
+			// TODO è¿™é‡Œå…¶å®æ˜¯æœ‰é—®é¢˜çš„, æƒ³:å½“getæ–¹æ³•è¿”å›valueå, å‡è®¾è¿™ä¸ªvalueå·²ç»æ˜¯è¿‡æœŸçš„äº†,
+			// è€Œå°±åœ¨è¿™ç¬é—´, å¦ä¸€ä¸ªèŠ‚ç‚¹setäº†value, è¿™æ—¶é”æ˜¯è¢«åˆ«çš„çº¿ç¨‹(èŠ‚ç‚¹æŒæœ‰), è€Œæ¥ä¸‹æ¥çš„åˆ¤æ–­
+			// æ˜¯æ£€æµ‹ä¸å‡ºè¿™ç§æƒ…å†µçš„.ä¸è¿‡è¿™ä¸ªé—®é¢˜åº”è¯¥ä¸ä¼šå¯¼è‡´å…¶å®ƒçš„é—®é¢˜å‡ºç°, å› ä¸ºè¿™ä¸ªæ–¹æ³•çš„ç›®çš„æœ¬æ¥å°±
+			// ä¸æ˜¯åŒæ­¥æ§åˆ¶, å®ƒåªæ˜¯ä¸€ç§é”çŠ¶æ€çš„æŠ¥å‘Š.
 			return !isTimeExpired(value);
 		}
 	}
 
 	@Override
 	protected void unlock0() {
-		// ÅĞ¶ÏËøÊÇ·ñ¹ıÆÚ
+		// åˆ¤æ–­é”æ˜¯å¦è¿‡æœŸ
 		String value = jedis.get(lockKey);
 		if (!isTimeExpired(value)) {
 			doUnlock();
