@@ -1,5 +1,9 @@
 package aggregate.app;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
 import aggregate.commands.obs.HelloWorldObservableCommand;
 import aggregate.commands.simple.HelloWorldCommand;
 import com.netflix.governator.annotations.AutoBindSingleton;
@@ -34,5 +38,16 @@ public class HelloWorldObservableController implements RequestHandler<ByteBuf, B
                             }
                         }
                 );
+    }
+
+    public static void main(String[] args) {
+        List<String> names =new ArrayList<String>();
+        names.add("Jack");
+        Predicate<String> startsWithJ = (n) -> n.startsWith("J");
+        Predicate<String> fourLetterLong = (n) -> n.length() == 4;
+        names.stream()
+                .filter(startsWithJ.and(fourLetterLong))
+                .forEach((n) -> System.out.print("nName, which starts with 'J' and four letter long is : " + n));
+
     }
 }
