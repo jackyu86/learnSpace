@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apollo-service-api/apollo-service-api.iml" filepath="$PROJECT_DIR$/apollo-service-api/apollo-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqtt-service-impl/mqtt-service-impl.iml" filepath="$PROJECT_DIR$/mqtt-service-impl/mqtt-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osidocker-apollo-support.iml" filepath="$PROJECT_DIR$/osidocker-apollo-support.iml" />
+    </modules>
+  </component>
+</project>

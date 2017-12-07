@@ -46,3 +46,26 @@ Temporary Items
 
 .metadata/
 
+
+.metadata/.log
+
+.metadata/.log
+
+*.ini
+
+*.ini
+
+*.ini
+
+.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_l.cfs
+
+*.class
+
+
+*.dat
+
+.metadata/*
+
+.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
+
+.metadata/.plugins/org.eclipse.core.resources/.projects/consumer-dao/org.eclipse.jdt.core/state.dat
