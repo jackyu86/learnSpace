@@ -1,3 +1,4 @@
+/*
 package zookeeper.demo.configmanager.lock;
 
 import java.text.MessageFormat;
@@ -40,3 +41,4 @@ public class DistributedReentrantLock extends DistributedLock {
     }  
   
 }  
+*/

@@ -66,8 +66,7 @@ public class ZKClient implements Watcher {
         }  
     }  
   
-    @Override  
-    public void process(WatchedEvent event) {  
+    public void process(WatchedEvent event) {
         if (event == null) return;  
   
         // 连接状态  
