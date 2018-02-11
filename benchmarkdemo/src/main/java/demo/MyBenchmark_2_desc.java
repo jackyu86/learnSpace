@@ -15,8 +15,8 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
  * @Author: jack-yu
  * @Description:
  */
-public class MyBenchmark2 {
-    public MyBenchmark2() {
+public class MyBenchmark_2_desc {
+    public MyBenchmark_2_desc() {
     }
 
     @Benchmark
@@ -64,7 +64,7 @@ public class MyBenchmark2 {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(MyBenchmark2.class.getSimpleName())
+                .include(MyBenchmark_2_desc.class.getSimpleName())
                 .warmupIterations(2)
                 .measurementIterations(2)
                 .forks(1)
