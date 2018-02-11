@@ -69,3 +69,7 @@ Temporary Items
 .metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps
 
 .metadata/.plugins/org.eclipse.core.resources/.projects/consumer-dao/org.eclipse.jdt.core/state.dat
+
+*/.idea/*
+*/target/*
+*/*.iml
