@@ -13,7 +13,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
  * @Description:
  */
 @State(Scope.Thread)
-public class MyBenchMark_4_DefaultStates {
+public class MyBenchMark_04_DefaultStates {
     double x = Math.PI;
 
     @Benchmark
@@ -24,7 +24,7 @@ public class MyBenchMark_4_DefaultStates {
 
     public static void main(String[] args) throws RunnerException {
         Options ops = new OptionsBuilder()
-                .include(MyBenchMark_4_DefaultStates.class.getSimpleName())
+                .include(MyBenchMark_04_DefaultStates.class.getSimpleName())
                 .warmupIterations(5)
                 .measurementIterations(5)
                 .forks(1)

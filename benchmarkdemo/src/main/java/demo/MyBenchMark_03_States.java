@@ -12,7 +12,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
  * @Author: jack-yu
  * @Description:
  */
-public class MyBenchMark_3_States {
+public class MyBenchMark_03_States {
 
     @State(Scope.Benchmark)
     public static class BenchmarkState{
@@ -36,7 +36,7 @@ public class MyBenchMark_3_States {
 
     public static void main(String[] args) throws RunnerException {
         Options ops = new OptionsBuilder()
-                .include(MyBenchMark_3_States.class.getSimpleName())
+                .include(MyBenchMark_03_States.class.getSimpleName())
                 .warmupIterations(5)
                 .measurementIterations(5)
                 .threads(4)
