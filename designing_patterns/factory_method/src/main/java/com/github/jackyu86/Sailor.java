@@ -1,4 +1,4 @@
-package com.github.jackyu86.lambda;
+package com.github.jackyu86;
 
 /**
  * @Author: jack-yu

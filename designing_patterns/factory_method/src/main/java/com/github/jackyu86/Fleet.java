@@ -1,9 +1,9 @@
-package com.github.jackyu86.lambda;
+package com.github.jackyu86;
 
 /**
  * @Author: jack-yu
  * @Description: 船队
  */
-interface  Fleet {
+public interface  Fleet {
     String jobDesc();
 }

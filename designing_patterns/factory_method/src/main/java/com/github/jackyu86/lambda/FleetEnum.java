@@ -2,6 +2,11 @@ package com.github.jackyu86.lambda;
 
 import java.util.function.Supplier;
 
+import com.github.jackyu86.Captain;
+import com.github.jackyu86.Cook;
+import com.github.jackyu86.Fleet;
+import com.github.jackyu86.Sailor;
+
 /**
  * @Author: jack-yu
  * @Description:
